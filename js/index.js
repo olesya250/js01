@@ -1,7 +1,6 @@
-
 var a = parseInt(prompt("Enter a", 100));
-var b = parseInt(prompt("Enter a", 100));
-var c = parseInt(prompt("Enter a", 100));
+var b = parseInt(prompt("Enter b", 100));
+var c = parseInt(prompt("Enter c", 100));
 
 function quadratic(a, b, c) {
 var result = (-1 * b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
